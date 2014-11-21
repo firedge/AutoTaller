@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoTaller</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string-array name="meses">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="tipo_vehiculo">
+        <item>Turismo</item>
+        <item>Moto</item>
+        <item>Furgoneta</item>
+    </string-array>
+
+    <string name="title_activity_formulario_vehiculo">FormularioVehiculo</string>
+    <string name="bt_aceptar">Aceptar</string>
+    <string name="bt_cancelar">Cancelar</string>
+    <string name="et_matricula">Matricula</string>
+    <string name="et_averia">Descripcion Averia</string>
+    <string name="et_presupuesto">Presupuesto aprox</string>
+    <string name="cb_urgente">Urgente</string>
+
+    <string name="mn_nuevo">Nuevo vehiculo</string>
+    <string name="mn_borrar_todo">Eliminar seleccionados</string>
+    <string name="mn_borrar">Eliminar</string>
+    <string name="mn_editar">Editar</string>
+
+    <string name="dg_borrar_todo">Desea eliminar todos los elementos seleccionados?</string>
+    <string name="borrado_todo">Elementos seleccionados eliminados</string>
+    <string name="dg_borrar">Desea eliminar este elemento?</string>
+    <string name="borrado">Elemento eliminado</string>
+
+    <string name="msg_aviso">Esta matricula ya esta registrada</string>
+    <string name="msg_editar">Datos guardados con éxito</string>
+    <string name="msg_error_guardar">Se ha producido un error al guardar en el archivo</string>
+    <string name="msg_error_cargar">Se ha producido un error al cargar el archivo</string>
+    <string name="tv_total">Total:</string>
+
+</resources>

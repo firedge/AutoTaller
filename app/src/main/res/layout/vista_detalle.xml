@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00 - Diciembre - 0000"
+        android:id="@+id/tv_fecha"
+        android:textSize="18sp"
+        android:background="#ff37ff39"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="averia"
+        android:id="@+id/tv_averia"
+        android:layout_below="@+id/tv_fecha"
+        android:layout_alignLeft="@+id/tv_fecha"
+        android:layout_alignStart="@+id/tv_fecha"
+        android:layout_alignRight="@+id/tv_fecha"
+        android:layout_alignEnd="@+id/tv_fecha"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp" />
+</RelativeLayout>
